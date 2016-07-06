@@ -3,14 +3,18 @@
     <head runat="server">
     <title>KobusvdS</title>
     
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <link href="bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="w3.css" rel="stylesheet" />
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="npm.js"></script>
 
 </head>
 <body>
+    <form id="form1">
     <!-- SIDE BAR -->
     <nav class="w3-sidenav w3-light-grey w3-card-2" style="display:none" id="mySidenav">
         <a class="w3-container w3-blue-grey" href="javascript:void(0)" onclick="w3_close()">
@@ -26,7 +30,6 @@
         <a href="#" class="w3-border-bottom">Files</a>
         <a href="#" class="w3-border-bottom">Websites</a>
     </nav>
-    <input id="Text1" type="text" /><input id="Password1" type="password" />
     <div id="main">
 
         <!-- NAVIGATION BAR -->
@@ -74,5 +77,7 @@
             document.getElementById("openNav").style.display = "inline-block";
         }
     </script>
+
+    </form>
 </body>
 </html>
