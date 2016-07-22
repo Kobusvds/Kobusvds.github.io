@@ -76,6 +76,17 @@ a {
 	background-image: url(home_background.jpg);
 	float: left;
 	}
+
+    #body2 {
+	width: 1024px;
+	height: 725px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(home_background2.jpg);
+	float: left;
+	}
 	
 			#bodycontact {
 	width: 1024px;
@@ -117,7 +128,7 @@ a {
 	
 				#bodytexttwo {
 	width: 254px;
-	height: 320px;
+	height: 420px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0px;
