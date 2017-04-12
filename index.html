@@ -1,102 +1,96 @@
-﻿<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<!DOCTYPE html>
+<html>
+<head>
     <title>KobusvdS</title>
-    <link rel="icon" href="hotel.png" />
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<meta name="theme-color" content="#D770AD" />
-    
-    <link href="bootstrap.min.css" rel="stylesheet" />
-    <link href="w3.css" rel="stylesheet" />
-    <link href="Textstuff.css" rel="stylesheet" />
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/8fe783f338.js"></script>
-</head>
-
-<body style="background-color:#393f47">
-    <div class="container-fluid p-t-3">
-        <div class="row p-b-3" align="center">
-            <div class="neon">Kobus</div>
-            <div class="flux">is Awesome!</div>
-        </div>
-        <div class="row" align="center">
-            <div class="col-sm-4">
-                <a href="http://instagram.com/kobusvds" target="blank">
-                <div class="card w3-dark-grey w3-card-8 m-b-3" style="max-width:200px">
-                    <div class="card-img-top p-t-1 p-b-1" align="center" style="color:white; background-image:url(insta.png); background-size:cover">
-                        <div class="neon"><i class="fa fa-instagram" aria-hidden="true" style="font-size:100px"></i></div>
-                    </div>
-                    <div class="card-footer" style="color:black">Intagram</div>
-                </div>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="https://www.facebook.com/Kobusvds" target="blank">
-                <div class="card w3-dark-grey w3-card-8 m-b-3" style="max-width:200px">
-                    <div class="card-img-top p-t-1 p-b-1" align="center" style="color:white; background-image:url(Facebook.PNG); background-size:cover">
-                        <div class="flux"><i class="fa fa-facebook" aria-hidden="true" style="font-size:100px"></i></div>
-                    </div>
-                    <div class="card-footer" style="color:black">Facebook</div>
-                </div>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="mailto:kobusvdsandt@gmail.com">
-                <div class="card w3-dark-grey w3-card-8 m-b-3" style="max-width:200px">
-                    <div class="card-img-top p-t-1 p-b-1" align="center" style="color:white; background-image:url(email.png); background-size:cover">
-                        <div class="neon"><i class="fa fa-inbox" aria-hidden="true" style="font-size:100px"></i></div></div>
-                    <div class="card-footer" style="color:black">Email</div>
-                </div>
-                </a>
-            </div>
-        </div>
-        <div class="row" align="center">
-            <div class="col-sm-4">
-                <a href="https://za.pinterest.com/KobusvdS/" target="blank">
-                <div class="card w3-dark-grey w3-card-8 m-b-3" style="max-width:200px">
-                    <div class="card-img-top p-t-1 p-b-1" align="center" style="color:white; background-image:url(pinterest.png); background-size:cover">
-                        <div class="flux"><i class="fa fa-pinterest" aria-hidden="true" style="font-size:100px"></i></div></div>
-                    <div class="card-footer" style="color:black">Pinterest</div>
-                </div>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="https://za.linkedin.com/in/kobus-van-der-sandt-3955b9a2" target="blank">
-                <div class="card w3-dark-grey w3-card-8 m-b-3" style="max-width:200px">
-                    <div class="card-img-top p-t-1 p-b-1" align="center" style="color:white; background-image:url(linkedin.png); background-size:cover">
-                        <div class="neon"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:100px"></i></div></div>
-                    <div class="card-footer" style="color:black">Linkedin</div>
-                </div>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="http://kylecomputerfile.tumblr.com/" target="blank">
-                <div class="card w3-dark-grey w3-card-8 m-b-3" style="max-width:200px">
-                    <div class="card-img-top p-t-1 p-b-1" align="center" style="color:white; background-image:url(tumblr.png); background-size:cover">
-                        <div class="flux"><i class="fa fa-tumblr" aria-hidden="true" style="font-size:100px"></i></div></div>
-                    <div class="card-footer" style="color:black">Tumblr</div>
-                </div>
-                </a>
-            </div>
-        </div>
-    </div>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="k1.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<script src="FontAwesome.js"></script>
+	
+	<style>
+		body 
+		{
+			font-family: 'VT323', monospace;
+		}
 		
+		@font-face 
+		{
+			font-family: f1; 
+			src: url('font1.ttf');
+		} 
+		@font-face 
+		{
+			font-family: f2; 
+			src: url('font2.ttf');
+		} 
+		.font1
+		{
+			font-family: f1; 
+			font-size:20px;
+		}
+		.font2
+		{
+			font-family: f2; 
+			font-size:25px;
+		}
+		body {
+			background-image: url("Background.jpg");
+		}
+	</style>
+	
+</head>
+<body class="bg-light-grey">
 
-    <!-- POPUP IMAGE-->
-    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-        <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
-        <div class="w3-modal-content w3-animate-zoom">
-            <img id="img01" style="width:100%"/>
-        </div>
-    </div>
-
-	<audio src="music.mp3" autoplay>
-        	<p>If you are reading this, it is because your browser does not support the audio element.</p>
-        	<embed src="music.mp3" width="180" height="90" hidden="true" />
-    	</audio>
-	<script src="bootstrap.min.js"></script>
+	<!-- TOP -->
+	<ul class="nav justify-content-center bg-pink-green p-1 s-2 sticky-top">
+	  <li class="nav-item">
+		<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-globe" aria-hidden="true"></i> Websites</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact</a>
+	  </li>
+	</ul>
+	
+	<div class="container-fluid" align="center">
+		<div class="card m-4 mt-5 max800 s-2 nb text-left hover-pale-yellow">
+			<div class="card-block">
+				<h5 class="m-3 text-center font2 text-teal"><i class="fa fa-bed mr-1" aria-hidden="true"></i> Dilisca Guesthouse</h5>
+				<hr>
+				The ultimate value for money overnight accommodation in Durbanville, Cape Town. 
+				They aim to provide you with service, value and comfort. Their tranquil and spacious setting will ensure your return.
+			</div>
+			<div class="card-footer bg-pink-green p-1"></div>
+		</div>
+		
+		<div class="card m-4 max800 s-2 nb text-left hover-pale-red" >
+			<div class="card-block">
+				<h5 class="m-3 text-center font2 text-blue-grey"><i class="fa fa-building-o mr-1" aria-hidden="true"></i> PlanIT Information Technology</h5>
+				<hr>
+				A vibrant Software Development house which focuses on delivering innovative solutions and consultancy services. The company 
+				continues as a small software house providing bespoke Software Application Development and Consulting; Web development and 
+				the services of a Syspro Value Added Reseller (VAR).
+			</div>
+			<div class="card-footer bg-pink-green p-1"></div>
+		</div>
+		
+		<div class="card m-4 max800 s-2 nb text-left  hover-pale-blue">
+			<div class="card-block">
+				<h5 class="m-3 text-center font2 text-teal"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 27 and 29 Maxie Drive</h5>
+				<hr>
+					Offers comfortable self catering accommodation in the seaside Town of Velddrif, Port Owen.
+					It is a fully equipped self-catering holiday home that consists of 2 sections or can be rented as one unit. It is 
+					situated on the Bree River and comes with a private jetty where you can secure your boat and have some fun on the 
+					river while staying here. Bring along your tekkies for a nice game of tennis on their tennis court which will be 
+					available for your usage. Cool off in their indoor or outdoor pool on a hot summer day or for those cold winter 
+					days, heat up the pools and relax.
+			</div>
+			<div class="card-footer bg-pink-green p-1"></div>
+		</div>
+		
+	</div>
 </body>
 </html>
