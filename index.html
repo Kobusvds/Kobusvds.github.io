@@ -3,11 +3,10 @@
 <head>
     <title>KobusvdS</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="k1.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 	<script src="FontAwesome.js"></script>
-	
 	<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur11.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/05/13/cur11.html" target="_blank" title="Watermelon"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Watermelon" style="position:absolute; top: 0px; right: 0px;" /></a>
 	
 	<style>
@@ -45,19 +44,29 @@
 <body class="bg-light-grey">
 
 	<!-- TOP -->
-	<ul class="nav justify-content-center bg-pink-green p-1 s-2 sticky-top">
-	  <li class="nav-item">
-		<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-globe" aria-hidden="true"></i> Websites</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact</a>
-	  </li>
-	</ul>
 	
-	<div class="container-fluid" align="center">
+	<nav class="navbar navbar-toggleable-sm navbar-light bg-pink-green fixed-top s-2">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand hidden-md-up" href="#">Menu</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+			<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-globe" aria-hidden="true"></i> Websites</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-dark-grey thover-pink font1" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact</a>
+		  </li>
+        </ul>
+      </div>
+    </nav>
+	
+	<div class="container-fluid pt-5" align="center">
 		<div class="card m-4 mt-5 max800 s-2 nb text-left hover-pale-yellow">
 			<div class="card-block">
 				<h5 class="m-3 text-center font2 text-teal"><i class="fa fa-bed mr-1" aria-hidden="true"></i> Dilisca Guesthouse</h5>
@@ -94,5 +103,7 @@
 		</div>
 		
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="bootstrap.js"></script>
 </body>
 </html>
