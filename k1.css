@@ -148,6 +148,7 @@
 
 .thover-blue:hover{color:blue !important;}
 .thover-pink:hover{color:#f1749e !important;}
+.thover-white:hover{color:#fff !important;}
 
 .bg-pink-green
 {
@@ -175,7 +176,7 @@
 .text-lime {color:#cddc39!important}
 .text-orange {color:#ff9800!important}
 .text-deep-orange {color:#ff5722!important}
-.text-pink {color:#e91e63!important}
+.text-pink {color:#f1749e!important}
 .text-purple {color:#9c27b0!important}
 .text-deep-purple {color:#673ab7!important}
 .text-red {color:#f44336!important}
