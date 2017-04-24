@@ -7,11 +7,11 @@
 	
 	<!-- STYLES -->
 	<link href="k1.css" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=VT323|Roboto" rel="stylesheet">
 	<script src="FontAwesome.js"></script>
 	<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur11.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/05/13/cur11.html" target="_blank" title="Watermelon"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Watermelon" style="position:absolute; top: 0px; right: 0px;" /></a>
 	<style>
-		body {font-family: 'VT323', monospace;}
+		body {font-family: 'Roboto', sans-serif;}
 		@font-face 
 		{
 			font-family: f1; 
@@ -22,15 +22,33 @@
 			font-family: f2; 
 			src: url('font2.ttf');
 		} 
+		@font-face 
+		{
+			font-family: f3; 
+			src: url('font3.ttf');
+		} 
 		.font1
 		{
 			font-family: f1; 
 			font-size:20px;
 		}
+		.f1
+		{
+			font-family: f1; 
+		}
 		.font2
 		{
 			font-family: f2; 
 			font-size:25px;
+		}
+		.font4
+		{
+			font-family: f3;
+			font-size:60px;
+		}
+		.font3
+		{
+			font-family: 'VT323', monospace; 
 		}
 		body {background-image: url("Background.jpg");}
 	</style>
@@ -42,18 +60,18 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand hidden-md-up" href="#">Menu</a>
+      <a class="navbar-brand hidden-md-up font3" href="#">Menu</a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-			<a class="nav-link text-pink thover-white font1" href="#"><i class="fa fa-globe" aria-hidden="true"></i> Websites</a>
+			<a class="nav-link text-pink thover-white font1" href="index.html"><i class="fa fa-globe" aria-hidden="true"></i> Websites</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link text-dark-grey thover-white font1" href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+			<a class="nav-link text-dark-grey thover-white font1" href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link text-dark-grey thover-white font1" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact</a>
+			<a class="nav-link text-dark-grey thover-white font1" href="contact.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Contact</a>
 		  </li>
         </ul>
       </div>
@@ -64,7 +82,7 @@
 	
 		<!-- DILISCA -->
 		<div class="card m-4 mt-5 max800 s-2 nb text-left hover-pale-yellow">
-				<div class="card-block">
+			<div class="card-block">
 				<h5 class="m-3 font2 text-teal">
 					<i class="fa fa-bed mr-1" aria-hidden="true"></i> 
 					Dilisca Guesthouse
@@ -108,12 +126,12 @@
 					</a>
 				</h5>
 				<hr>
-					Offers comfortable self catering accommodation in the seaside Town of Velddrif, Port Owen.
-					It is a fully equipped self-catering holiday home that consists of 2 sections or can be rented as one unit. It is 
-					situated on the Bree River and comes with a private jetty where you can secure your boat and have some fun on the 
-					river while staying here. Bring along your tekkies for a nice game of tennis on their tennis court which will be 
-					available for your usage. Cool off in their indoor or outdoor pool on a hot summer day or for those cold winter 
-					days, heat up the pools and relax.
+				Offers comfortable self catering accommodation in the seaside Town of Velddrif, Port Owen.
+				It is a fully equipped self-catering holiday home that consists of 2 sections or can be rented as one unit. It is 
+				situated on the Bree River and comes with a private jetty where you can secure your boat and have some fun on the 
+				river while staying here. Bring along your tekkies for a nice game of tennis on their tennis court which will be 
+				available for your usage. Cool off in their indoor or outdoor pool on a hot summer day or for those cold winter 
+				days, heat up the pools and relax.
 			</div>
 			<div class="card-footer bg-pink-green p-1"></div>
 		</div>
