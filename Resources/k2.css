@@ -1,0 +1,74 @@
+@import url("Fonts.css");
+
+body 
+{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("Background.jpg");
+}
+body, a:hover 
+{
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur11.cur), progress !important;
+}
+@font-face 
+{
+	font-family: f1; 
+	src: url('font1.ttf');
+} 
+@font-face 
+{
+	font-family: f2; 
+	src: url('font2.ttf');
+} 
+.font1
+{
+	font-family: f1; 
+	font-size:20px;
+}
+.font2
+{
+	font-family: f2; 
+	font-size:25px;
+}
+.font3{font-family: 'VT323', monospace; }
+.btn-yellow 
+{ 
+	border: 8px solid transparent;
+	padding: 0.25rem 0.5rem;
+	-webkit-border-image: url('border.png') 30 stretch; /* Safari 3.1-5 */
+	-o-border-image: url('border.png') 30 stretch; /* Opera 11-12.1 */
+	border-image: url('border.png') 30 stretch;
+	background-color:#fff3c9;
+	cursor:pointer !important;
+	padding: 0.5px 10px !important;
+	font-size: 0.875rem;
+	font-family: 'VT323', monospace; 
+	color:black;
+}
+.btn-grey 
+{ 
+	border: 8px solid transparent;
+	padding: 0.25rem 0.5rem;
+	-webkit-border-image: url('border2.png') 30 stretch; /* Safari 3.1-5 */
+	-o-border-image: url('border2.png') 30 stretch; /* Opera 11-12.1 */
+	border-image: url('border2.png') 30 stretch;
+	background-color:#e4e4e4;
+	cursor:pointer !important;
+	padding: 0.5px 10px !important;
+	font-size: 0.875rem;
+	font-family: 'VT323', monospace; 
+	color:black;
+}
+.btn-blue 
+{ 
+	border: 8px solid transparent;
+	padding: 0.25rem 0.5rem;
+	-webkit-border-image: url('border3.png') 30 stretch; /* Safari 3.1-5 */
+	-o-border-image: url('border3.png') 30 stretch; /* Opera 11-12.1 */
+	border-image: url('border3.png') 30 stretch;
+	background-color:#c9cfe9;
+	cursor:pointer !important;
+	padding: 0.5px 10px !important;
+	font-size: 0.875rem !important;
+	font-family: 'VT323', monospace !important; 
+	color:black;
+}
