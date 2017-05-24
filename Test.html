@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kobusvds</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="Resources/k1.css" rel="stylesheet" />
+	<link href="Resources/k2.css" rel="stylesheet" />
+	
+	<script>
+		function loadXMLDoc() {
+		  var xmlhttp = new XMLHttpRequest();
+		  xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+			  myFunction(this);
+			}
+		  };
+		  xmlhttp.open("GET", "cd_catalog.xml", true);
+		  xmlhttp.send();
+		}
+		function myFunction(xml) {
+		  var i;
+		  var xmlDoc = xml.responseXML;
+		  var table="<tr><th>Artist</th><th>Title</th></tr>";
+		  var x = xmlDoc.getElementsByTagName("CD");
+		  for (i = 0; i <x.length; i++) { 
+			table += "<tr><td>" +
+			x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+			"</td><td>" +
+			x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+			"</td></tr>";
+		  }
+		  document.getElementById("demo").innerHTML = table;
+		}
+	</script>
+</head>
+<body>
+
+	<!-- TOP -->
+	<div class="container-fluid" align="center">
+		<button class="btn btn-sm btn-danger mt-5" onclick="loadXMLDoc()">Get my CD collection</button>
+		
+		<table class="tbl mt-3" id="demo"></table>
+	
+		<div class="card m-5 s-2 w-600">
+			<div class="card-header bg-pale-red p-2 pl-3 progress-bar-striped">Test</div>
+			<div class="card-block">Another Test</div>
+			<div class="card-footer p-2 a-r">
+				<button type="button" class="btn-yellow">Hello</button>
+				<button type="button" class="btn-grey">Is it me your looking for?</button>
+				<button type="button" class="btn-blue">Nope!</button>
+			</div>
+		</div>
+		
+		<div class="border">
+			Hi I have two border colors<br />
+			I am also Fluid
+		</div>
+		
+		<form method="post" action="/registration/new" id="registration-form">
+		 <label for="first-name">First name:</label><br />
+		 <input type="text" id="first-name" name="FirstName"/><br />
+		 <label for="last-name">Last name:</label><br />
+		 <input type="text" id="last-name" name="LastName"/><br />
+		 <label for="email-address">Email address:</label><br />
+		 <input type="email" id="email-address" name="EmailAddress"/><br />
+		 <label for="password">Choose a password:</label><br />
+		 <input type="password" id="password" name="Password"/><br />
+		 <label for="confirm-password">Confirm your password:</label><br />
+		 <input type="password" id="confirm-password" name="ConfirmPassword"/><br />
+		 <label for="website">Website/blog:</label><br />
+		 <input type="url" id="website" name="WebsiteUrl" /><br />
+		 <input type="reset" id="website" name="WebsiteUrl" /><br />
+		 <button type="submit">Register</button>
+		</form> 
+		
+		<div class="popup">
+			<button type="button" class="btn btn-sm btn-secondary">Hover</button>
+			<div class="popup-content-r">
+				<div class="card s-4">
+					<div class="card-header">Hey, awesome person!!</div>
+					<div class="card-block">Help</div>
+					<div class="card-footer pointer">Me</div>
+				</div>
+			</div>
+		</div><br/><br/>
+		
+		<div align="center">
+		<table class="tbl" >
+			<tr>
+				<td>Hdsfsfsdf sdfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+				<td>Hdsfsfsdfsdf sdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+				<td>Hdsfsfsdfsdfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+			</tr>
+			<tr>
+				<td>Hdsfsfsdfs dfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+				<td>Hdsfs fsdfsdfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+				<td>Hdsfsf sdfsdfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+			</tr>
+			<tr>
+				<td>Hdsfsfsdfsdf sdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+				<td>Hdsfsfsd fsdfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+				<td>Hdsfsfsd fsdfsdfsdfsd</td>
+				<td>dfsdfs fsd fsd fsdf</td>
+				<td>sdfsdf fghfg jsdfvsdokciosd</td>
+			</tr>
+		</table>
+		</div>
+		
+		<br/><br/>
+		
+	</div>
+</body>
+</html>
