@@ -1,11 +1,7 @@
-/*!
- * Bootstrap v4.0.0-alpha.6 (Modified By KobusvdS)
- */
+/* ---- Bootstrap v4.0.0-alpha.6 (Modified By KobusvdS) ---- */
 
 /* FIX HORIZONTAL SCROLLING ON PHONES */
-@media screen and (max-width: 667px) {
-    body {overflow-x: hidden !important;}
-}
+@media screen and (max-width: 667px){body{overflow-x: hidden !important;}}
 
 /* NO BORDER */
 .nb{border:none !important}
@@ -42,8 +38,7 @@
 .w1200{width:1200px !important;}
 
 /* EASIER MODAL */
-.k1-modal
-{
+.k1-modal{
     z-index:3;
     display:none;
     padding-top:100px;
@@ -63,22 +58,22 @@
 .animate-zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
 
 /* POPUP */
-.popup {
+.popup{
     position: relative;
     display: inline-block;
 }
-.popup-content {
+.popup-content{
     display: none;
     z-index: 1;
 	position: absolute;
 }
-.popup-content-r {
+.popup-content-r{
     display: none;
     z-index: 1;
 	position: absolute;
     right: 0;
 }
-.popup-content-l {
+.popup-content-l{
     display: none;
     z-index: 1;
 	position: absolute;
@@ -87,8 +82,7 @@
 .popup:hover .popup-content-l, .popup:hover .popup-content-r, .popup:hover .popup-content{display: block;}
 
 /* BETTER TABLE */
-.tbl td,.tbl th
-{
+.tbl td,.tbl th{
 	padding:6px 8px;
 	display:table-cell;
 	text-align:left;
@@ -97,12 +91,11 @@
 	border: 1px solid !important;
 	border-color: #ddd !important;
 }
-.tbl th
-{
+.tbl th{
 	background-color: #616161;
 	color:white;
 }
-.tbl tbody tr:nth-of-type(odd){background-color: rgba(0, 0, 0, 0.05);}
+.tbl tbody tr:nth-of-type(odd){background-color: #f2f2f2;}
 .tbl tbody tr:nth-of-type(even){background-color: white;}
 
 /* SHADOWS */
@@ -147,14 +140,12 @@
 .bg-pale-yellow,.hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .bg-pale-blue,.hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
 
-.bg-pink-green
-{
+.bg-pink-green{
 	background: white; /* For browsers that do not support gradients */
 	background: linear-gradient(to right, #F8BBD0, #DCEDC8); /* Standard syntax */
 	color:#000!important;
 }
-.bg-white-grey
-{
+.bg-white-grey{
 	background: white; /* For browsers that do not support gradients */
 	background: linear-gradient(to right, #ffffff, #a5b7c0); /* Standard syntax */
 	color:#1a1a1a!important;
@@ -202,6 +193,8 @@
 .a-r{text-align: right !important;}
 .a-l{text-align: left !important;}
 .a-c{text-align: center !important;}
+
+/* ---- BOOTSTRAP ---- */
 
 html {
   font-family: sans-serif;
