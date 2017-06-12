@@ -36,8 +36,13 @@
 	<!-- BODY -->
 	<div class="container-fluid pt-5" align="center">
 	
+		<!-- HEADING -->
+		<div class="card m-4 mt-5 max800 text-left bg-pale-green pBorder hover-white">
+			<div class="card-block">Some of the websites I made!</div>
+		</div>
+	
 		<!-- DILISCA -->
-		<div class="card m-4 mt-5 max800 s-2 text-left hover-pale-yellow pBorder">
+		<div class="card m-4 max800 s-2 text-left bg-pale-yellow pBorder hover-white">
 			<div class="card-block">
 				<h5 class="m-3 font2 text-teal">
 					<img src="Resources/toast.gif" />
@@ -49,11 +54,16 @@
 				<hr>
 				The ultimate value for money overnight accommodation in Durbanville, Cape Town. 
 				They aim to provide you with service, value and comfort. Their tranquil and spacious setting will ensure your return.
+				<hr>
+				<img src="Resources/Capture5.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture6.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture7.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture8.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
 			</div>
 		</div>
 		
 		<!-- PLAN-IT -->
-		<div class="card m-4 max800 s-2 text-left hover-pale-red pBorder" >
+		<div class="card m-4 max800 s-2 text-left bg-pale-red pBorder hover-white">
 			<div class="card-block">
 				<h5 class="m-3 font2 text-blue-grey">
 					<img src="Resources/toast.gif" />
@@ -66,11 +76,16 @@
 				A vibrant Software Development house which focuses on delivering innovative solutions and consultancy services. The company 
 				continues as a small software house providing bespoke Software Application Development and Consulting; Web development and 
 				the services of a Syspro Value Added Reseller (VAR).
+				<hr>
+				<img src="Resources/Capture1.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture2.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture3.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture4.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
 			</div>
 		</div>
 		
 		<!-- MAXIE DRIVE -->
-		<div class="card m-4 max800 s-2 text-left hover-pale-blue pBorder">
+		<div class="card m-4 max800 s-2 text-left bg-pale-blue pBorder hover-white">
 			<div class="card-block">
 				<h5 class="m-3 font2 text-teal">
 					<img src="Resources/toast.gif" />
@@ -86,6 +101,11 @@
 				river while staying here. Bring along your tekkies for a nice game of tennis on their tennis court which will be 
 				available for your usage. Cool off in their indoor or outdoor pool on a hot summer day or for those cold winter 
 				days, heat up the pools and relax.
+				<hr>
+				<img src="Resources/Capture9.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture10.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture11.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+				<img src="Resources/Capture12.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
 			</div>
 		</div>
 	</div>
@@ -93,5 +113,22 @@
 	<!-- SCRIPTS FOR NAVBAR -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="Resources/bootstrap.js"></script>
+	
+	<!-- POPUP IMAGE-->
+	<div id="modal01" class="gal-modal" onclick="this.style.display='none'">
+		<span class="closebtn hover-red text-white">&times;</span>
+		<div class="gal-modal-content animate-zoom">
+			<img id="img01" style="width:100%" class="pBorder2"/>
+		</div>
+	</div>
+
+	<script>
+		// SCRIPT POPUP IMAGE
+		function onClick(element) 
+		{
+			document.getElementById("img01").src = element.src;
+			document.getElementById("modal01").style.display = "block";
+		}
+	</script>
 </body>
 </html>
