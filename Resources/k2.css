@@ -152,3 +152,12 @@ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur11.cur), p
 	background-color:white;
 	color:black;
 }
+
+.pBorder2{ 
+	border: 5px solid transparent;
+	-webkit-border-image: url('border0.png') 30 stretch; /* Safari 3.1-5 */
+	-o-border-image: url('border0.png') 30 stretch; /* Opera 11-12.1 */
+	border-image: url('border0.png') 30 stretch;
+	background-color:white;
+	color:black;
+}

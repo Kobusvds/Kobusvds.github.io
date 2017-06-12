@@ -3,14 +3,78 @@
 /* FIX HORIZONTAL SCROLLING ON PHONES */
 @media screen and (max-width: 667px){body{overflow-x: hidden !important;}}
 
-/* NO BORDER */
+/* BORDERS */
 .nb{border:none !important}
+.b{border:1px solid #ccc!important}
+.b-top{border-top:1px solid #ccc!important}
+.b-btm{border-bottom:1px solid #ccc!important}
+.b-left{border-left:1px solid #ccc!important}
+.b-right{border-right:1px solid #ccc!important}
+
+/* CIRCLE */
+.circle{border-radius:50%!important}
+
+/* HOVER POPUP */
+.dropdown-hover {
+	cursor:help !important;
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-hover:hover .dropdown-content {display: block;}
+
+/* GALLERY IMAGE MODAL */
+.gal-modal{
+	z-index:3;
+	display:none;
+	padding-top:100px;
+	position:fixed;
+	left:0;top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.9)
+}
+.gal-modal-content{
+	margin:auto;
+	background-color:#fff;
+	position:relative;
+	padding:0;
+	outline:0;
+	max-width:800px
+}
+.closebtn{
+	text-decoration:none;
+	float:right;
+	font-weight:bold;
+	color:inherit; 
+	font-size:36px!important; 
+	padding:0.01em 16px; 
+	position:absolute;
+	right:0;
+	bottom:0
+}	
+.closebtn:hover,.closebtn:focus{
+	color:#000;
+	text-decoration:none;
+	cursor:pointer;
+}
 
 /* CHANGE CURSOR TO POINTER */
 .pointer{cursor:pointer !important;}
+.pointerZoom{cursor:zoom-in !important;}
 
 /* WIDTHS */
 .max100{max-width:100px !important;}
+.max150{max-width:160px !important;}
 .max200{max-width:200px !important;}
 .max300{max-width:300px !important;}
 .max400{max-width:400px !important;}
@@ -139,6 +203,7 @@
 .bg-pale-green,.hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
 .bg-pale-yellow,.hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .bg-pale-blue,.hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.hover-opacity:hover{opacity: 0.5; filter: alpha(opacity=50);}
 
 .bg-pink-green{
 	background: white; /* For browsers that do not support gradients */
