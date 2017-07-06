@@ -3470,9 +3470,8 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-item.show .nav-link {
-  color: #fff;
   cursor: default;
-  background-color: #0275d8;
+  color:#000!important;background-color:#fff!important
 }
 
 .nav-fill .nav-item {
