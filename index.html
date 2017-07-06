@@ -11,38 +11,29 @@
 </head>
 <body class="bg-light-grey">
 
-	<!-- NAVBAR -->
-	<nav class="navbar navbar-toggleable-sm navbar-light bg-pink-green fixed-top s-2">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand hidden-md-up font3" href="#">Menu</a>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-			<a class="nav-link text-pink thover-white font1" href="index.html"><img src="Resources/Home.png" /> Websites</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link text-dark-grey thover-white font1" href="about.html"><img src="Resources/About.png" /> About</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link text-dark-grey thover-white font1" href="contact.html"><img src="Resources/Contact.png" /> Contact</a>
-		  </li>
-        </ul>
-      </div>
-    </nav>
+	<div class="ph s-2" id="particles-js">
+		<span class="p-5 phc a-c">
+			
+			<!-- NAVIGATION -->
+			<div class="btn-group pBorder2" role="group">
+			  <a class="btn btn-secondary hover-pale-red" href="index.html"><img src="Resources/Home.png" /> Websites</a>
+			  <a class="btn btn-secondary hover-pale-green" href="about.html"><img src="Resources/About.png" /> About</a>
+			  <a class="btn btn-secondary hover-pale-blue" href="contact.html"><img src="Resources/Contact.png" /> Contact</a>
+			</div>
+			
+		</span>
+	</div>
 	
 	<!-- BODY -->
-	<div class="container-fluid pt-5" align="center">
+	<div class="container-fluid" align="center">
 	
 		<!-- HEADING -->
-		<div class="card m-4 mt-5 max800 text-left bg-pale-green pBorder hover-white">
+		<div class="card m-4 mt-3 max800 text-left bg-pale-green pBorder hover-white">
 			<div class="card-block">Some of the websites I made!</div>
 		</div>
 	
 		<!-- DILISCA -->
-		<div class="card m-4 max800 s-2 text-left bg-pale-yellow pBorder hover-white">
+		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-yellow">
 			<div class="card-block">
 				<h5 class="m-3 font2 text-teal">
 					<img src="Resources/toast.gif" />
@@ -63,12 +54,12 @@
 		</div>
 		
 		<!-- PLAN-IT -->
-		<div class="card m-4 max800 s-2 text-left bg-pale-red pBorder hover-white">
+		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-red">
 			<div class="card-block">
 				<h5 class="m-3 font2 text-blue-grey">
 					<img src="Resources/toast.gif" />
 					PlanIT Information Technology
-					<a class="btn float-md-right btn-grey hover-white" href="https://kwebsites.github.io" target="_blank">
+					<a class="btn float-md-right btn-grey hover-white" href="http://www.plan-it.co.za" target="_blank">
 						<img src="Resources/Contact.png" /> Visit Site
 					</a>
 				</h5>
@@ -85,7 +76,7 @@
 		</div>
 		
 		<!-- MAXIE DRIVE -->
-		<div class="card m-4 max800 s-2 text-left bg-pale-blue pBorder hover-white">
+		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-blue">
 			<div class="card-block">
 				<h5 class="m-3 font2 text-teal">
 					<img src="Resources/toast.gif" />
@@ -110,10 +101,6 @@
 		</div>
 	</div>
 	
-	<!-- SCRIPTS FOR NAVBAR -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-	<script src="Resources/bootstrap.js"></script>
-	
 	<!-- POPUP IMAGE-->
 	<div id="modal01" class="gal-modal" onclick="this.style.display='none'">
 		<span class="closebtn hover-red text-white">&times;</span>
@@ -130,5 +117,8 @@
 			document.getElementById("modal01").style.display = "block";
 		}
 	</script>
+	
+	<!-- Particles Script -->
+	<script src="Resources/particles.js"></script>
 </body>
 </html>
