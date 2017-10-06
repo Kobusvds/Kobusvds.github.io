@@ -13,6 +13,7 @@
 
 /* CIRCLE */
 .circle{border-radius:50%!important}
+.rounder{border-radius: 0.70rem!important}
 
 /* HOVER POPUP */
 .dropdown-hover {
@@ -76,7 +77,7 @@
 
 /* WIDTHS */
 .max100{max-width:100px !important;}
-.max150{max-width:160px !important;}
+.max150{max-width:140px !important;}
 .max200{max-width:200px !important;}
 .max300{max-width:300px !important;}
 .max400{max-width:400px !important;}
@@ -216,6 +217,11 @@
 	background: white; /* For browsers that do not support gradients */
 	background: linear-gradient(to right, #ffffff, #a5b7c0); /* Standard syntax */
 	color:#1a1a1a!important;
+}
+.bg-nice{
+	background: #d53369; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #d53369 , #cbad6d); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #d53369 , #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* TEXT COLORS */
