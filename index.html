@@ -4,127 +4,198 @@
     <title>KobusvdS</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- STYLES -->
-	<link href="Resources/k1.css" rel="stylesheet" />
 	<link href="Resources/k2.css" rel="stylesheet" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
-<body class="bg-light-grey">
+<body class="bg-nice">
 
-	<div class="ph s-4" id="particles-js">
-		<span class="p-5 phc a-c">
+	<!-- HEADER -->
+	<div class="d-flex flex-row flex-wrap justify-content-center pt-3 pb-5 s-2 bg-dark-grey">
+		<div class="p-3">
+			<img src="Resources/ProfilePic.png" class="max150 circle s-2"/>
+		</div>
+		<div class="a-l max600 p-3">
+			<p>
+				<img src="Resources/toast.png" /> 
+				My name is Kobus van der Sandt. 
+				<img src="Resources/toast.png" />
+			</p><hr/>
+			<p>This site is my online CV/Portfolio. I am a software developer currently working at PLAN-IT. I have a passion for programming and I hunger to broaden my knowledge library 
+			on a daily basis. I am always looking for new challenges and educating myself in the latest technologies.</p>
 			
-			<!-- NAVIGATION -->
-			<div class="btn-group pBorder2 hidden-sm-down" role="group">
-			  <a class="btn btn-secondary hover-pale-red" href="index.html"><img src="Resources/Home.png" /> Websites</a>
-			  <a class="btn btn-secondary hover-pale-green" href="about.html"><img src="Resources/About.png" /> About</a>
-			  <a class="btn btn-secondary hover-pale-blue" href="contact.html"><img src="Resources/Contact.png" /> Contact</a>
-			</div>
-			
-			<div class="btn-group btn-group-sm pBorder2 hidden-md-up" role="group">
-			  <a class="btn btn-secondary hover-pale-red" href="index.html"><img src="Resources/Home.png" /> Websites</a>
-			  <a class="btn btn-secondary hover-pale-green" href="about.html"><img src="Resources/About.png" /> About</a>
-			  <a class="btn btn-secondary hover-pale-blue" href="contact.html"><img src="Resources/Contact.png" /> Contact</a>
-			</div>
-			
-		</span>
+			<a class="btn btn-sm text-white bg-grey hover-pink" href="index.html" style="background: rgba(0, 0, 0, 0.26);">
+				About
+			</a>
+			<a class="btn btn-sm text-white hover-pink" href="websites.html" style="background: rgba(0, 0, 0, 0.26);">
+				Websites
+			</a><hr/>
+		</div>
 	</div>
-	
+		
 	<!-- BODY -->
-	<div class="container-fluid" align="center">
-	
-		<!-- HEADING -->
-		<div class="card m-4 mt-3 max800 text-left bg-pale-green pBorder hover-white">
-			<div class="card-block">Some of the websites I made!</div>
+	<div class="container-fluid px-3" align="center">
+		
+		<!-- INFORMATION ABOUT ME -->
+		<div class="card bg-white nb s-2 mb-4 max800" style="margin-top:-50px">
+			<div class="card-header bg-grey progress-bar-striped p-1"></div>
+			<div class="card-body bg-pink-green a-l">
+				<p><img src="Resources/About.png" /> Information about me. <img src="Resources/About.png" /></p><hr/>
+				
+				<div class="row">
+					<div class="col-sm-6 px-2">
+					
+						<!-- CONTACT INFO -->
+						<div class="list-group s-2 mb-2">
+							<a href="#" class="list-group-item bg-light-grey py-2">Contact Info</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-red" 
+								data-toggle="tooltip" title="Click to call number">
+								<div>
+									<h6 class="my-0">Phone</h6>
+									<small class="text-muted">081-098-9312</small>
+								</div>
+								<span class="text-muted"><i class="fas fa-phone"></i></span>
+							</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-green" 
+								data-toggle="tooltip" title="Click to mail">
+								<div>
+									<h6 class="my-0">Email</h6>
+									<small class="text-muted">Kobusvdsandt@gmail.com</small>
+								</div>
+								<span class="text-muted"><i class="fas fa-envelope"></i></span>
+							</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-red" 
+								data-toggle="tooltip" title="Click to do nothing">
+								<div>
+									<h6 class="my-0">Skype</h6>
+									<small class="text-muted">Kobusvds</small>
+								</div>
+								<span class="text-muted"><i class="fab fa-skype"></i></span>
+							</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-green" 
+								data-toggle="tooltip" title="Click to stalk">
+								<div>
+									<h6 class="my-0">Instagram</h6>
+									<small class="text-muted">Kobus_is_awesome</small>
+								</div>
+								<span class="text-muted"><i class="fab fa-instagram"></i></span>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-6 px-2">
+					
+						<!-- OTHER INFO -->
+						<div class="list-group s-2 mb-2">
+							<a href="#" class="list-group-item bg-light-grey py-2">Other Info</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-red">
+								<div>
+									<h6 class="my-0">Langauge</h6>
+									<small class="text-muted">Afrikaans/English</small>
+								</div>
+								<span class="text-muted"><i class="fas fa-language"></i></span>
+							</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-green">
+								<div>
+									<h6 class="my-0">Home</h6>
+									<small class="text-muted">Uitzicht Durbanville</small>
+								</div>
+								<span class="text-muted"><i class="fas fa-home"></i></span>
+							</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between lh-condensed py-2 hover-pale-red">
+								<div>
+									<h6 class="my-0">Work</h6>
+									<small class="text-muted">Employed at Plan-IT (2 Years)</small>
+								</div>
+								<span class="text-muted"><i class="fas fa-briefcase"></i></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	
-		<!-- DILISCA -->
-		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-yellow">
-			<div class="card-block">
-				<h5 class="m-3 font2 text-teal">
-					<img src="Resources/toast.gif" />
-					Dilisca Guesthouse
-					<a class="btn float-md-right btn-yellow hover-white" href="http://dilisca.co.za" target="_blank">
-						<img src="Resources/Contact.png" /> Visit Site
-					</a>
-				</h5>
-				<hr>
-				The ultimate value for money overnight accommodation in Durbanville, Cape Town. 
-				They aim to provide you with service, value and comfort. Their tranquil and spacious setting will ensure your return.
-				<hr>
-				<img src="Resources/Capture5.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture6.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture7.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture8.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+		<!-- EMPLOYMENT HISTORY -->
+		<div class="card s-2 mb-3 max800 text-white" style="background: rgba(0, 0, 0, 0.26);">
+			<div class="card-body">
+				<img src="Resources/Home.png" /> Employment & Education History <img src="Resources/Home.png" />
 			</div>
 		</div>
 		
 		<!-- PLAN-IT -->
-		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-red">
-			<div class="card-block">
-				<h5 class="m-3 font2 text-blue-grey">
-					<img src="Resources/toast.gif" />
-					PlanIT Information Technology
-					<a class="btn float-md-right btn-grey hover-white" href="http://www.plan-it.co.za" target="_blank">
-						<img src="Resources/Contact.png" /> Visit Site
-					</a>
-				</h5>
-				<hr>
-				A vibrant Software Development house which focuses on delivering innovative solutions and consultancy services. The company 
-				continues as a small software house providing bespoke Software Application Development and Consulting; Web development and 
-				the services of a Syspro Value Added Reseller (VAR).
-				<hr>
-				<img src="Resources/Capture1.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture2.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture3.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture4.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+		<div class="card my-4 max800 nb s-2 text-left">
+			<div class="card-header p-1 bg-pale-dred"></div>
+			<div class="card-header bg-pale-red d-flex justify-content-between align-items-center progress-bar-striped">
+				<span><img src="Resources/toast.png" class="mb-1 mr-2" /><b>Plan-It Information Technology</b> (Software Developer)</span>
+				<a href="http://www.plan-it.co.za" class="btn btn-light b" target="_blank"><img src="Resources/Contact.png" /> www.plan-it.co.za</a>
 			</div>
+			<div class="card-body">
+				Plan-IT is a bespoke software development house, so I get to work on variety of different projects. 
+				Examples: Websites, Intranets, Data Capturing Apps, Barcoding & Inventory Apps, Ecommerce’s. 
+				I am the go-to person when any project needs to look good, since I enjoy designing as well.
+				<hr>
+				My IDE is Visual Studio and I work mostly on ASP.NET Web Applications, often use SQL and occasionally do Windows Form Apps. 
+				I use C# daily but also use VB.NET, JavaScript and jQuery. 
+			</div>
+			<div class="card-footer bg-light-grey p-1"></div>
 		</div>
 		
-		<!-- MAXIE DRIVE -->
-		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-blue">
-			<div class="card-block">
-				<h5 class="m-3 font2 text-teal">
-					<img src="Resources/toast.gif" />
-					27 and 29 Maxie Drive
-					<a class="btn float-md-right btn-blue hover-white" href="https://2729maxiedrive.co.za" target="_blank">
-						<img src="Resources/Contact.png" /> Visit Site
-					</a>
-				</h5>
-				<hr>
-				Offers comfortable self catering accommodation in the seaside Town of Velddrif, Port Owen.
-				It is a fully equipped self-catering holiday home that consists of 2 sections or can be rented as one unit. It is 
-				situated on the Bree River and comes with a private jetty where you can secure your boat and have some fun on the 
-				river while staying here. Bring along your tekkies for a nice game of tennis on their tennis court which will be 
-				available for your usage. Cool off in their indoor or outdoor pool on a hot summer day or for those cold winter 
-				days, heat up the pools and relax.
-				<hr>
-				<img src="Resources/Capture9.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture10.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture11.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture12.PNG" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
+		<!-- MUA -->
+		<div class="card my-4 max800 nb s-2 text-left">
+			<div class="card-header p-1 bg-pale-dred"></div>
+			<div class="card-header bg-pale-red d-flex justify-content-between align-items-center progress-bar-striped">
+				<span><img src="Resources/toast.png" class="mb-1 mr-2" /><b>MUA Insurance</b> (Data Capturer)</span>
+				<a href="http://www.mua.co.za" class="btn btn-light b" target="_blank"><img src="Resources/Contact.png" /> www.mua.co.za</a>
 			</div>
+			<div class="card-body">
+				Did data capturing, content reports and general office admin 
+			</div>
+			<div class="card-footer bg-light-grey p-1"></div>
 		</div>
 		
-		<!-- MATTHEW & PARTNERS -->
-		<div class="card m-4 max800 s-2 text-left bg-white pBorder hover-pale-yellow">
-			<div class="card-block">
-				<h5 class="m-3 font2 text-teal">
-					<img src="Resources/toast.gif" />
-					Matthews & Partners (In Progress)
-					<a class="btn float-md-right btn-yellow hover-white" href="http://lawyers1.plan-it.co.za/index.html" target="_blank">
-						<img src="Resources/Contact.png" /> Visit Site
-					</a>
-				</h5>
-				<hr>
-				Matthews and Partners is a firm of attorneys established on 1 August 2003 in Kimberley, Northern Cape Province. The firm is wholly owned by 
-				Roger Eric Matthews, an attorney from a historically disadvantaged background.
-				<hr>
-				<img src="Resources/Capture13.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture14.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture15.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-				<img src="Resources/Capture16.png" class="max100 pBorder2 m-1 hover-opacity pointerZoom" onclick="onClick(this)"/>
-			</div>
+		<!-- EDUCATION -->
+		<div class="list-group m-4 max800 s-2 a-l">
+			<li class="list-group-item p-1 bg-pale-dred "></li>
+			<li class="list-group-item p-1 bg-pale-red progress-bar-striped"><h6 class="m-3 bold"><img src="Resources/toast.png" class="mb-1 mr-2" /> Education</h6></li>
+			
+			<!-- STELLENBERG -->
+			<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">Stellenberg Highschool</h5>
+					<small>2012</small>
+				</div>
+				<small>Subjects taken:</small>
+				<p class="mt-2">
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Afrikaans first language</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">English second language</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Math literacy</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Consumer studies</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Computer Application Technology</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Design</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Life Orientation</span>
+				</p>
+			</a>
+			
+			<!-- CTI COLLEGE -->
+			<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">Cti College Durbanville</h5>
+					<small>2013-2014</small>
+				</div>
+				<small>Higher Certificate in Information Systems Software Development<br/>Subjects taken:</small>
+				<p class="mt-2">
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Computer Literacy</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Creating Webpages (HTML & ASP.NET)</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Processing & Logical Concepts</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Program Design</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">C#</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Software Engineering</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Database Design Concepts</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Database Management (SQL)</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Linux Operating System</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">VB.Net Advance </span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Perl</span>
+					<span class="badge badge-pill badge-secondary mb-1 p-2">Hardware Essentials</span>
+				</p>
+			</a>
 		</div>
 	</div>
 	
@@ -144,7 +215,7 @@
 			document.getElementById("modal01").style.display = "block";
 		}
 	</script>
-	
+
 	<!-- Particles Script -->
 	<script src="Resources/particles.js"></script>
 </body>
